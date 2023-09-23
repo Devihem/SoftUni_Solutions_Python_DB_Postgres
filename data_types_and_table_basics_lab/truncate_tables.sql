@@ -1,0 +1,4 @@
+TRUNCATE TABLE issues;
+
+ALTER TABLE employee
+ADD COLUMN middle_name VARCHAR(50);
