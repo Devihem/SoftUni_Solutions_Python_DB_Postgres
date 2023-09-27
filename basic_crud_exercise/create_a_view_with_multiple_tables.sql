@@ -9,8 +9,6 @@ SELECT
 	    AS "Address"
 
 FROM
-    employees AS "e"
-JOIN addresses AS "a"
-    ON
-    e.address_id = a.id
-ORDER BY "Address" ASC
+    employees AS "e", addresses AS "a"
+WHERE e.address_id = a.id
+ORDER BY "Address"
