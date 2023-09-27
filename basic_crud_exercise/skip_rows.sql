@@ -4,5 +4,5 @@ SELECT
 	,hire_date AS "Hire Date"
 
 FROM employees
-	ORDER BY hire_date ASC
-	OFFSET 9
+ORDER BY hire_date ASC
+OFFSET 9

@@ -4,5 +4,5 @@ SELECT
 	,job_title AS "Job Title"
 
 FROM employees
-	ORDER BY first_name ASC
-	LIMIT 50
+ORDER BY first_name ASC
+LIMIT 50

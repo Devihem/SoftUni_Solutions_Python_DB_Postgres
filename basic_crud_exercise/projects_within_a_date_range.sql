@@ -1,4 +1,5 @@
-SELECT "name"
+SELECT
+    "name"
 	, start_date
 	, end_date
 FROM projects
