@@ -1,4 +1,4 @@
 SELECT
 	AVG(multiplication)
 FROM
-	bookings_calculations
+	bookings_calculation
