@@ -1,8 +1,6 @@
 SELECT
 	last_name
-	,SUM(
-		(LENGTH(notes) - LENGTH(
-			REPLACE(notes,'Dumbledore','')))/ LENGTH('Dumbledore'))
+	,COUNT(notes) as "Note with Dumbledore"
 FROM
 	wizard_deposits
 WHERE
