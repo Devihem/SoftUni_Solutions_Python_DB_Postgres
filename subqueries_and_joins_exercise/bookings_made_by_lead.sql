@@ -6,13 +6,9 @@ SELECT
 	,c.country
 FROM
 	bookings AS b
-INNER JOIN
+JOIN
 	customers AS c
 USING
 	(customer_id)
-INNER JOIN
-	apartments AS a
-USING
-	(booking_id)
 WHERE
 	c.job_type LIKE 'Lead%'

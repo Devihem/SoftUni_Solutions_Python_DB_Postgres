@@ -1,5 +1,5 @@
 SELECT
-	COUNT(b.customer_id)
+	COUNT(*)
 FROM
 	bookings AS b
 JOIN
