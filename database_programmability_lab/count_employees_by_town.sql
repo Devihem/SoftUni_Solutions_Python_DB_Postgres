@@ -7,7 +7,7 @@ $$
 		count_people INT;
 	BEGIN
 		SELECT COUNT(*) INTO count_people
-		FROM employees AS em
+		FROM employees  AS em
 		LEFT JOIN addresses AS ad ON ad.address_id = em.address_id
 		LEFT JOIN towns AS tw ON tw.town_id = ad.town_id
 		WHERE town_name_input = tw."name";
