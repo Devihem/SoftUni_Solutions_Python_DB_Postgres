@@ -1,2 +1,2 @@
-ALTER TABLE minions_info
-	RENAME COLUMN salary TO banana
+ALTER TABLE minions
+RENAME TO minions_info;
