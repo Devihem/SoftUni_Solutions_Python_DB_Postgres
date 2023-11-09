@@ -1,4 +1,4 @@
-[![SoftUni-Logo](https://raw.githubusercontent.com/Devihem/SoftUni_Solutions_Python_OOP/master/Softuni_logo_trasparent-1536x291.png)](https://softuni.bg/opencourses/postgre-sql)
+[![SoftUni-Logo](https://raw.githubusercontent.com/Devihem/SoftUni_Solutions_Python_OOP/master/Softuni_logo_trasparent-1536x291.png)](https://softuni.bg/curriculum)
 
 ## PostgreSQL - Course - 2023      - [[ LINK: CERTIFICATE & GRADE ](https://softuni.bg/certificates/details/186285/a74bd7c2)  A+ / 6.00]
 
@@ -6,7 +6,7 @@
 
 ## About the course: - [[LINK: COURSE INFO](https://softuni.bg/opencourses/postgre-sql)]
 
-The course focuses on understanding the principles of Object Oriented Programming (OOP) and its applications and methods, working through many tasks and problems to  consolidate the new knowledge, as well as exploring and learning how to use UnitTest and TestCase in particular.
+The course focuses on understanding the principles of Data Base and its applications and methods, working through many tasks and problems to  consolidate the new knowledge, as well as exploring and learning how to use Tables relations , Joins , Functions in PostgreSQL. Working with PGAdmin , Shell , Docker , DataGrip as where main programs trough the learning process.
 
 - [x] Data Types. Working with Tables
 - [x] CRUD.
